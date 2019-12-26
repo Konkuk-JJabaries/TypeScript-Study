@@ -68,7 +68,7 @@ type Group = 'editor' | 'admin';
         { id: 97, name: 'Oliver', age: 28, group: 'admin' },
     ];
     const answer_5 = users_2.reduce(
-        (acc: Record<string, number>, cur) => ({ ...acc, [cur.age]: acc[cur.age] || 0 || +1 }),
+        (acc: Record<string, number>, cur) => ({ ...acc, [cur.age]: acc[cur.age] + 1 || 1 }),
         {},
     );
 }
