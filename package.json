@@ -1,0 +1,22 @@
+{
+  "name": "typescript-study",
+  "version": "1.0.0",
+  "description": "TypeScript Study Repository",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Konkuk-JJabaries/TypeScript-Study.git"
+  },
+  "author": {
+    "name": "DoHyeoon Jeon",
+    "email": "whdies816@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Konkuk-JJabaries/TypeScript-Study/issues"
+  },
+  "homepage": "https://github.com/Konkuk-JJabaries/TypeScript-Study#readme"
+}
