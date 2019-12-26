@@ -48,7 +48,7 @@
         { id: 85, name: 'William', age: 34, group: 'editor' },
         { id: 97, name: 'Oliver', age: 28, group: 'admin' },
     ];
-    /** 답 : {23: 1, 28: 2, 34: 1} */
+    /** 답 : {'23': 1, '28': 2, '34': 1} */
     /** *Tip const a = '1' => {[a] : 'b'} => {'1' : 'b'} */
 }
 

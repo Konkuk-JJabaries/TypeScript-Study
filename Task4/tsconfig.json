@@ -1,11 +1,17 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "declaration": false,
         "noImplicitAny": true,
         "removeComments": true,
-        "preserveConstEnums": true,
-        "sourceMap": true,
-        "strictNullChecks": true
+        "noLib": false,
+        "target": "ES5",
+        "sourceMap": false,
+        "allowJs": true,
+        "lib": ["esnext", "dom"],
+        "outDir": "./dist",
+        "rootDir": "."
     },
     "include": ["answer/*"],
     "exclude": ["node_modules"]
