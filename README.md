@@ -10,4 +10,4 @@ TypeScript를 공부하는 레포지토리 입니다.
 4. [ES6 이상의 문법을 활용해보기](Task4/README.md)
 5. [Request를 사용해보기](Task5/README.md)
 6. [다른 모듈들을 사용해보기](Task6/READMD.md)
-7. 11번가 만들어보기
+7. [11번가 만들어보기](Task7/README.md)
