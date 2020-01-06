@@ -19,8 +19,10 @@ import * as puppeteer from 'puppeteer';
 
     await page.setViewport({ width: 900, height: 600 });
     await page.goto('https://google.com');
+    const html_string = await page.evaluate(() => document.body.innerHTML);
 
-    await page.waitFor(3000);
+    console.log(html_string);
+    // Google 홈페이지의 HTML을 출력하면 잘 되는 것입니다.
 
     await browser.close();
 })();
